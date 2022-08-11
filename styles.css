@@ -1,0 +1,120 @@
+.attribution {
+  margin-top: 100px;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+
+.fulldesign {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  font-family: "Lexend Deca";
+  width: 200px;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-family: "Big Shoulders Display";
+  color: hsl(0, 0%, 95%);
+}
+
+button {
+  font-family: "Lexend Deca";
+  transition: hover 0.15s;
+  border-radius: 20px;
+  padding: 11px 26px 11px 26px;
+  cursor: pointer;
+  margin-top: 120px;
+}
+
+.sedans {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  background-color: hsl(31, 77%, 52%);
+  height: 490px;
+  width: 300px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.sedanicon,
+.suvicon,
+.luxicon {
+  padding-top: 40px;
+}
+
+.learn4sedan {
+  color: hsl(31, 77%, 52%);
+  background-color: hsl(0, 0%, 95%);
+  border: none;
+}
+
+.learn4sedan:hover {
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(31, 77%, 52%);
+  border-width: 3px;
+  border-color: hsl(0, 0%, 95%);
+  border-style: solid;
+}
+
+.suv {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  background-color: hsl(184, 100%, 22%);
+  height: 490px;
+  width: 300px;
+  padding-left: 40px;
+}
+
+.learn4suv {
+  color: hsl(184, 100%, 22%);
+  background-color: hsl(0, 0%, 95%);
+  margin-top: 120px;
+  border: none;
+}
+
+.learn4suv:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+  border-style: solid;
+  border-width: 3px;
+  border-color: hsl(0, 0%, 95%);
+}
+
+.lux {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  background-color: hsl(179, 100%, 13%);
+  height: 490px;
+  width: 300px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.learn4lux {
+  color: hsl(179, 100%, 13%);
+  background-color: hsl(0, 0%, 95%);
+  margin-top: 120px;
+  border: none;
+}
+
+.learn4lux:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+  border-style: solid;
+  border-width: 3px;
+  border-color: hsl(0, 0%, 95%);
+}
